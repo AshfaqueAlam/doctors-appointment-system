@@ -1,4 +1,4 @@
-# Dctors' Appointment System
+# Doctors' Appointment System
 
 - Download this project by clicking on the Green Code button as .zip file. And extract it.
 - Place it inside `htdocs` directory of xampp.
