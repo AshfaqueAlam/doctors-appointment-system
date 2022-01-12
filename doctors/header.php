@@ -3,9 +3,11 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>mms-doctors</title>
-	<link rel="stylesheet" href="../patient/css/bootstrap.min.css">
-	<link rel="stylesheet" href="../style.css">
+	<title>Doctor Appointment Management System</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
 	<style>
 		.menu{
 			width: 100%;
@@ -39,15 +41,8 @@
 			color:#FF3F33;
 			text-decoration:none;
 			border-bottom: 3px solid #FF3F33;
+;
 			cursor:pointer;
-		}
-
-		.text{
-			margin: 0px 0px;
-			padding: 30px;
-			text-align:center;
-			background:blue;
-			color:white;
 		}
 
 		.icon li:hover{
@@ -85,26 +80,26 @@
 			font-size: 20px;
 			display: inline-block;
 		}
+
+		.text{
+			margin: 0px 0px;
+			padding: 30px;
+			text-align:center;
+			background:blue;
+			color:white;
+		}
 	</style>
 </head>
 <body>
-
-
-	<?php
-		if($_SESSION['adminstatus'] == ""){
-			header("location:doctorlogin.php");
-		}
-		
-		   
-
-	 ?>
-
-
-
-	<nav class="menu">
-		<h2>Doctor Appointment Management System</h2>
-		<ul>
-			<li><a href="../doctor_patient_login.php">Logout</a></li>
-		</ul>
-	</nav>
+		<nav class="menu">
+			<h2>Doctor Appointment Management System</h2>
+			<ul>
+				
+				<li><a href="../patient_regi.php">Register</a></li>
+				<li><a href="../doctor_patient_login.php">Login</a></li>
+				<li><a href="../find_doctor.php">Find Best Doctors</a></li>
+				<li><a href="../index.php">Home</a></li>
+			</ul>
+		</nav>
+	</div>
 	
